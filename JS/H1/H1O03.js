@@ -15,4 +15,6 @@ function draw() {
   rect(0,0,150,450);
   fill('blue');  
   rect(75,0,375,450);
+  fill()
+  ellipse(450,225,0.3)
 }
