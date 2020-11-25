@@ -7,7 +7,7 @@ function setup() {
 
 function draw() {
   noStroke();
-  fill('mediumaquamarine');
+  fill('thistle');
   translate(50,50);
   rect(0,0,100,100);
   
@@ -26,7 +26,7 @@ function draw() {
   translate(0,40);  
   rect(0,0,100,100);  
   // EINDE aanpassing
-  po()
+  pop()
 
   translate(140,0);
   rect(0,0,100,100);

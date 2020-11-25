@@ -1,19 +1,19 @@
-var letterGrootte = 30;
-var marge = 20;
+var letterGrootte = 30;   
+var marge = 20;   
 
-function setup() {
-  canvas = createCanvas(1000,300);
-  canvas.parent('processing');
-  textFont("Verdana");
-  textSize(letterGrootte);
-  textLeading(1.2*letterGrootte);
-  //noLoop();
-}
+function setup() {   
+  canvas = createCanvas(1000,300);   
+  canvas.parent('processing');   
+  textFont("Verdana");   
+  textSize(letterGrootte);   
+  textLeading(1.2*letterGrootte);   
+  //noLoop();   
+}   
 
-function draw() {
-  background('orange');
-  fill('yellow');
-  textAlign(LEFT, TOP);
+function draw() {   
+  background('orange');   
+  fill('yellow');   
+  textAlign(LEFT, TOP);   
   text("mouseX:" + mouseX + "\nmouseY:" + mouseY,mouseX,mouseY);
   translate(50,50);
   fill('black');
