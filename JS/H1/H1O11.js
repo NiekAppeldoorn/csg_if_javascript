@@ -9,7 +9,7 @@ function setup() {
   textSize(30);
   stroke('white');
   strokeWeight(10);
-  frameRate(10);
+  frameRate(50);
 }
 
 function draw() {
